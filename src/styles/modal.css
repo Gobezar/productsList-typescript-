@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+
+.modal_bg {
+    background:#000;
+    opacity: 0.5;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+
+}
+.modal_window {
+    background-color: rgb(229, 231, 243);
+    width: 500px;
+    padding:20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.create_form {
+    padding: 10px;
+    margin-bottom: 2px;
+}
+.create_form_input {
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 116, 116);
+    width: 320px;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px
+}
+
+.create_form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 116, 116);
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+}
+.create_form button:hover {
+    cursor: pointer;
+    background-color: rgba(122, 116, 116, 0.692);
+}

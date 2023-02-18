@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+
+.navigation {
+    height: 30px;
+    display: flex;
+    background-color: rgb(195, 201, 231);
+    height: 50px;
+    border-bottom: 1px solid rgb(175, 168, 168);
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+
+.navigation_link, .navigation span {
+    margin-right: 30px;
+    text-decoration: none;
+}
+.navigation_link:hover {
+    color: white;
+}

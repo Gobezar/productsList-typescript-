@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+.App {
+    background-color: #e0c2e0;
+}
+.product_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.product_img {
+    border: 1px solid rgb(175, 168, 168);
+    
+}
+
+
+
+.product_title {
+    margin: 5px;
+    font-family: 'Mynerve';
+    font-size: 23px;
+}
+.product_item span {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: 'Mynerve';
+    font-size: 25px;
+}
+
+.product_description, .product_rate {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+    width: 500px;
+    text-align: center;
+    font-weight: 300;
+}
+.product_rate {
+    padding-top: 0;
+}
+
+.my_button {
+    padding: 5px;
+    width: 150px;
+    border: 1px solid rgb(122, 116, 116);
+    border-radius: 5px;
+    background-color: rgb(183, 188, 218);
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+}
+
+.my_button:hover {
+    cursor: pointer;
+    background-color:dodgerblue;
+}
+
+
+.addProduct_button {
+    position:fixed;
+    padding: 5px;
+    bottom: 20px;
+    left: 20px;
+    color:white;
+    background:red;
+    width: 150px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.addProduct_button:hover {
+    background:rgb(131, 2, 2);
+    cursor: pointer;
+}
