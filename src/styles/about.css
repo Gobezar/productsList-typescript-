@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+.about_page {
+    width: 500px;
+    display: flex;
+    margin: 50px auto;
+}
+.about_page p {
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Mynerve';
+    font-size: 23px;
+}

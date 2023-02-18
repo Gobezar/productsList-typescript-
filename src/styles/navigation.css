@@ -3,9 +3,9 @@
 .navigation {
     height: 30px;
     display: flex;
-    background-color: rgb(195, 201, 231);
+    background-color: rgba(195, 201, 231, 0.39);
     height: 50px;
-    border-bottom: 1px solid rgb(175, 168, 168);
+    border-bottom: 1px solid rgba(175, 168, 168, 0.466);
     font-family: 'Teko', sans-serif;
     font-size: 23px;
     display: flex;
